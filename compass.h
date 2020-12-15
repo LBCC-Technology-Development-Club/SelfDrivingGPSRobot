@@ -1,8 +1,11 @@
+//Define the new compass library and make sure the name has not been used elsewhere in the code.
 #ifndef COMPASS_H
 #define COMPASS_H
 
-#include <Wire.h>
-#include <HMC5883L_Simple.h>
+//I2C Communciation Added To New Library
+#include <Wire.h> 
+//Original Compass Library
+#include <HMC5883L_Simple.h> 
 
 namespace compass
 {
