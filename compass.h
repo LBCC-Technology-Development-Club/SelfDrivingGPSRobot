@@ -1,13 +1,13 @@
-//Define the new compass library and make sure the name has not been used elsewhere in the code.
+//JWL: Define the new compass library and make sure the name has not been used elsewhere in the code.
 #ifndef COMPASS_H
 #define COMPASS_H
 
-//I2C Communciation Added To New Library
+//JWL: I2C Communciation Added To New Library
 #include <Wire.h> 
-//Original Compass Library: https://github.com/sleemanj/HMC5883L_Simple (I believe this is it.)
+//JWL: Original Compass Library: https://github.com/sleemanj/HMC5883L_Simple (I believe this is it.)
 #include <HMC5883L_Simple.h> 
 
-//Namespace contains the class "compass". Still trying to understand Namespaces.
+//JWL: Namespace contains the class "compass". Still trying to understand Namespaces.
 namespace compass
 {
   	HMC5883L_Simple Compass;
