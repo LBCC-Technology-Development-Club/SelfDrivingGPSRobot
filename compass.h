@@ -4,9 +4,10 @@
 
 //I2C Communciation Added To New Library
 #include <Wire.h> 
-//Original Compass Library
+//Original Compass Library: https://github.com/sleemanj/HMC5883L_Simple (I believe this is it.)
 #include <HMC5883L_Simple.h> 
 
+//Namespace contains the class "compass". Still trying to understand Namespaces.
 namespace compass
 {
   	HMC5883L_Simple Compass;
