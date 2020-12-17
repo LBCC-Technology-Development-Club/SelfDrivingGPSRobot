@@ -12,6 +12,8 @@ namespace compass
 {
   	HMC5883L_Simple Compass;
 
+	//JWL: Each Compass.something comes directly from the HMC5883L_Simple.cpp (the original library).
+	//JWL: To fully understand this part of the code, we will have to study the original library: https://github.com/sleemanj/HMC5883L_Simple.
 	void setupCompass()
 	{
 		Wire.begin();
