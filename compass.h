@@ -17,7 +17,7 @@ namespace compass
 	void setupCompass()
 	{
 		Wire.begin();
-		Compass.SetDeclination(2, 31, 'E');  // http://www.magnetic-declination.com/
+		Compass.SetDeclination(2, 31, 'E');  // http://www.magnetic-declination.com/ //JWL: Depends on your Geographical Location
 		Compass.SetSamplingMode(COMPASS_CONTINUOUS); //COMPASS_CONTINUOUS COMPASS_SINGLE
 		Compass.SetScale(COMPASS_SCALE_130); //Sensitivity
 		Compass.SetOrientation(COMPASS_HORIZONTAL_Y_NORTH); //this depends on how its mounted on the robot
