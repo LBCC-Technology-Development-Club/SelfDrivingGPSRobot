@@ -4,7 +4,7 @@
 
 //JWL: I2C Communciation Added To New Library
 #include <Wire.h> 
-//JWL: Original Compass Library: https://github.com/sleemanj/HMC5883L_Simple (I believe this is it.)
+//JWL: Original Compass Library: https://github.com/sleemanj/HMC5883L_Simple (I believe this is it.) / Added to GitHub
 #include <HMC5883L_Simple.h> 
 
 //JWL: Namespace contains the class "compass". Still trying to understand Namespaces.
